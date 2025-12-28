@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notice Board - Categories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      background-color: #f7f9fc;
+    }
+    .event-card {
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      border: 1.5px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: #fff;
+      transition: transform 0.3s;
+    }
+    .event-card:hover {
+      transform: translateY(-5px);
+    }
+    .event-img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-bottom: 1px solid #ddd;
+    }
+    .card-body {
+      padding: 15px;
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .card-text {
+      font-size: 15px;
+      color: #555;
+    }
+    h3 {
+      font-weight: bold;
+    }
+    .home-icon {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      font-size: 24px;
+      color: #333;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Icon -->
+  <a href="index.html" class="home-icon">
+    <i class="fas fa-home"></i>
+  </a>
+
+  <div class="container py-5">
+    <h3 class="mb-4 text-center">📌Academics Notices!</h3>
+    <div class="row">
+      <!-- Placement -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="w6.jpg" alt="Placement Notice" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">Placement Drive - Infosys, Zoho & TCS</h5>
+            <p class="card-text">Final year students are requested to register for upcoming placement drives. Aptitude training sessions will be held from April 10 to April 13. Resume submission deadline: April 8.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academics -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="placement.jpg" alt="Academic Update" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">New Academic Timetable Released</h5>
+            <p class="card-text">The updated academic timetable for the current semester is now available. Faculty allocations have also been revised. Please download the new version from the student portal.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Exams -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="w7.jpg" alt="Exam Schedule" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">Semester Exam Hall Tickets & Schedule</h5>
+            <p class="card-text">Semester examinations will begin on April 22. Hall tickets can be downloaded from April 15. Make sure your attendance and fees are cleared before the deadline.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cultural -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="w9.jpeg" alt="Cultural Fest" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">Cultural Fest - “Varnam 2025”</h5>
+            <p class="card-text">Mark your calendars! Varnam 2025 is happening on April 27 & 28. Participate in music, dance, drama and fashion events. Registration open till April 20.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workshop -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="w8.jpg" alt="Workshop" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">AI & ML Workshop - April 16 & 17</h5>
+            <p class="card-text">Join the 2-day workshop on Artificial Intelligence and Machine Learning conducted by industry experts. E-certificates and live project sessions included. Limited seats available.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Club -->
+      <div class="col-md-6">
+        <div class="event-card">
+          <img src="w6.jpg" alt="Clubs & Activities" class="event-img">
+          <div class="card-body">
+            <h5 class="card-title">Coding Club Contest - CodeSprint 2.0</h5>
+            <p class="card-text">Compete with your peers in the intra-college coding competition. Prelims will be held online. Finals will be on campus. Cash prizes, certificates and internships await the winners!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
